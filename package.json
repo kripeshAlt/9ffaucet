@@ -1,13 +1,21 @@
 {
-  "name": "puppeteer-bot",
+  "name": "puppeteer-render",
   "version": "1.0.0",
-  "main": "mainbot.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node bot.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
   },
+  "keywords": [],
+  "author": "kripesh",
+  "license": "ISC",
   "dependencies": {
-    "puppeteer": "^20.2.0",
-    "axios": "^0.27.2",
-    "cheerio": "^1.0.0-rc.10"
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "puppeteer": "^23.7.0",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8"
   }
 }
