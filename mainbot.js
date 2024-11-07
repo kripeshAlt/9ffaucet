@@ -81,7 +81,7 @@ async function sleep(time = 500) {
 
 (async () => {
     // Launch Puppeteer in non-headless mode
-    const browser = await puppeteer.launch({ headless: false });
+    const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
 
     // Navigate to 99faucet.com login page
